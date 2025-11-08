@@ -335,10 +335,11 @@ export default function App() {
 
       {/* Rodapé */}
       <footer className="text-center text-gray-400 text-sm pb-8 relative z-10">
-        <div className="inline-block bg-black/30 backdrop-blur-sm border border-amber-500/10 rounded-full px-6 py-3">
-          Feira de Ciências — <span className="text-amber-300 font-semibold">2º Ano 2025</span>
-        </div>
-      </footer>
+  <div className="inline-block bg-black/30 backdrop-blur-sm border border-amber-500/10 rounded-full px-6 py-3">
+    Feira de Ciências — <span className="text-amber-300 font-semibold">2º Ano 2025</span>
+  </div>
+</footer>
+
     </div>
   );
 }
