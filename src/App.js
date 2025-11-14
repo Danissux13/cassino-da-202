@@ -22,28 +22,28 @@ export default function App() {
       nomeCompleto: "Juliane – Operadora VIP",
       bio: "Gerente do cassino, ambiciosa e envolvida em esquema de fichas e ilícitos. Controla os pedidos e possui grande influência. Mantinha relação afetiva com uma das vítimas e tinha acesso irrestrito à área VIP e ao bar.",
       bioCurta: "Gerente ambiciosa envolvida em esquemas ilícitos. Controlava tudo no cassino e tinha relação com uma vítima.",
-      img: "https://images.unsplash.com/photo-1608889175123-34e5d8a6bcb8?q=80&w=500",
+      img: "/imagens/juliane.jpg",
     },
     {
-      nome: "Yasmin",
-      nomeCompleto: "Yasmin – Membro VIP",
+      nome: "Yasmim",
+      nomeCompleto: "Yasmim – Membro VIP",
       bio: "Membro VIP do cassino há anos. Envolvida em rivalidades internas e disputas de cargo, observadora e afiada. Conhece todos os segredos do Império 202.",
       bioCurta: "Membro VIP há anos, envolveu-se em rivalidades e disputas internas. Conhece todos os segredos.",
-      img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=500",
+      img: "/imagens/yasmim.jpg",
     },
     {
       nome: "Pisca",
       nomeCompleto: "Pisca – A Bartender",
       bio: "Bartender conhecido por sua astúcia e contatos importantes. Querido por todos os clientes, ouve cada conversa e confidência nas madrugadas do cassino.",
       bioCurta: "Bartender astuto com contatos importantes. Ouvia todas as conversas e confidências do cassino.",
-      img: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=500",
+      img: "/imagens/pisca.jpg",
     },
     {
       nome: "Emanuel",
       nomeCompleto: "Emanuel – Segurança",
       bio: "Segurança e técnico de manutenção. Conhece toda a rotina noturna do cassino. Endividado e suspeito de forjar fichas falsas. Move-se como sombra pelos corredores.",
       bioCurta: "Segurança endividado, conhece cada centímetro do cassino. Suspeito de forjar fichas falsas.",
-      img: "https://images.unsplash.com/photo-1541534401786-2077eed87a76?q=80&w=500",
+      img: "/imagens/emanuel .jpg",
     }
   ];
 
@@ -52,50 +52,66 @@ export default function App() {
     {
       nome: "Vitor",
       nomeCompleto: "Vitor — Jogador VIP",
-      bio: "Jogador habitual com dívidas perigosas. Gostava de riscos e de se colocar no centro das atenções. Encontrado após mal-estar súbito; tinha inimigos e promessas não cumpridas.",
+      bio: "Causa da morte: Intoxicação por sedativo. Corpo encontrado nos bastidores. Última pessoa que o viu: Duda (bartender). Ocorrência: Após uma intensa partida de pôquer, Vítor passou mal e pediu ajuda a Duda para ir ao banheiro, mas desmaiou no caminho e morreu antes de receber socorro. Tinha uma rixa com Emanuel e era próximo de Duda e Juliane. Suspeitas pairam sobre seus próprios aliados.",
       bioCurta: "Jogador VIP com dívidas perigosas. Gostava de riscos e atraía atenções. Tinha muitos inimigos.",
-      img: "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=500",
+      img: "/imagens/vitor.jpg",
     },
     {
       nome: "Samuel",
       nomeCompleto: "Samuel — Funcionário do Bar",
-      bio: "Novo no time, destaque rápido: eficiente e começando a conquistar clientes. Trabalhava por turnos ao lado do bartender e atraía olhares — o que pode ser perigoso num lugar onde quem brilha perde espaço de alguém.",
+      bio: "Causa da morte: Envenenamento por bebida adulterada. Última pessoa que o viu: Yasmin. Ocorrência: Samuel foi encontrado morto na cozinha do cassino. Recém-contratado por Juliane, vinha se destacando no bar e conquistando clientes, o que despertou inveja entre colegas. Na noite do crime, Yasmin o encontrou tossindo sangue. A autópsia revelou que ele havia ingerido álcool, algo proibido para funcionários, o que agravou o envenenamento. Restam os sussurros: quem quis impedir sua ascensão no cassino?",
       bioCurta: "Funcionário promissor que conquistava clientes rapidamente. Seu sucesso despertava ciúmes perigosos.",
-      img: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=500",
+      img: "/imagens/samuel.jpg",
     },
     {
       nome: "Isabelly",
       nomeCompleto: "Isabelly — Contadora",
-      bio: "Responsável por checar transações e fichas; séria, detalhista. Preferida da gerência para assuntos financeiros, mas temida pelos colegas por encontrar erros que custam caro. Achada próxima ao cofre, vítima de agressão.",
+      bio: "Causa da morte: Traumatismo por agressão. Última pessoa que a viu: Não identificada. Ocorrência: Isabelly, contadora do Cassino Império, descobriu um desvio de dinheiro e fichas e iniciou uma investigação por conta própria. Funcionária de confiança de Juliane, mas temida pelos colegas, foi encontrada morta perto dos cofres, com sinais de violência. O cassino seguiu brilhando, mas o crime deixou claro: todos jogam, e ninguém está realmente limpo.",
       bioCurta: "Contadora temida por encontrar erros financeiros. Séria e detalhista, sabia demais sobre o cassino.",
-      img: "https://images.unsplash.com/photo-1556742031-c6961e8560b0?q=80&w=500",
+      img: "/imagens/isabelly.jpg",
     },
   ];
 
   const experimentos = [
     {
-      nome: "Reação Química - Luzes do Crime",
-      bio: "Demonstração de reações redox usando elementos do cassino.",
-      img: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=500",
-      detalhes: "As reações simulam efeitos luminosos, semelhantes às luzes do cassino, mas aqui sob análise química.",
+      nome: "Teste com luminol e análise de digitais",
+      nomeCurto: "Luminol e digitais",
+      bio: "O luminol é um reagente químico que reage com o ferro presente na hemoglobina do sangue, produzindo uma luminescência azul, mesmo em superfícies lavadas. Já a análise de digitais identifica e compara impressões digitais únicas deixadas no local, um dos métodos de identificação mais confiáveis.",
+      bioCurta: "Reagente que detecta sangue mesmo lavado. Análise de impressões digitais únicas para identificação.",
+      img: "/imagens/luminol.png",
+      detalhes: "Demonstração do uso de luminol e comparação de impressões digitais coletadas.",
     },
     {
-      nome: "Análise Forense - Digitais Ocultas",
-      bio: "Técnicas de análise de impressões digitais e fibras.",
-      img: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=500",
-      detalhes: "Usamos pó magnético e luz UV para revelar impressões e rastros ocultos.",
+      nome: "Teste de pH",
+      nomeCurto: "Teste de pH",
+      bio: "O teste de pH determina se uma substância é ácida, básica ou neutra. Na cena de um crime, isso pode ajudar a identificar resíduos desconhecidos, como líquidos corrosivos ou produtos químicos específicos deixados pelo autor.",
+      bioCurta: "Identifica se substâncias são ácidas, básicas ou neutras. Crucial para análise de resíduos.",
+      img: "/imagens/ph.jpg",
+      detalhes: "Mostramos tiras de pH e interpretação dos resultados para identificação de substâncias.",
     },
     {
-      nome: "Cromatografia - Tintas da Fortuna",
-      bio: "Separação de pigmentos de marcadores usados nas fichas.",
-      img: "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?q=80&w=500",
-      detalhes: "A cromatografia revela a composição química exclusiva das tintas.",
+      nome: "Análise de vestígios (microscópio)",
+      nomeCurto: "Vestígios no microscópio",
+      bio: "O microscópio é usado para examinar vestígios invisíveis a olho nu, como fibras de tecido, fios de cabelo, fragmentos de vidro ou pólen. Essa análise pode criar conexões cruciais entre um suspeito e o local do crime.",
+      bioCurta: "Examina fibras, cabelos e partículas invisíveis a olho nu. Conecta suspeitos à cena do crime.",
+      img: "/imagens/microscopio.jpg",
+      detalhes: "Comparação de fibras e partículas para conectar cenas e suspeitos.",
     },
     {
-      nome: "Microscopia - Fibras da Verdade",
-      bio: "Análise de fibras e resíduos nas cartas de poker.",
-      img: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=500",
-      detalhes: "Identificamos fibras conectando suspeitos à cena do crime.",
+      nome: "Análise de vestígios na luz UV",
+      nomeCurto: "Vestígios na luz UV",
+      bio: "A luz ultravioleta (UV) faz com que alguns materiais brilhem no escorro (fluorescem), como manchas de fluidos biológicos (sangue, saliva), fibras, resíduos de explosivos ou produtos de limpeza, revelando evidências que seriam facilmente ignoradas.",
+      bioCurta: "Revela evidências ocultas como sangue, saliva e fibras através da fluorescência na luz UV.",
+      img: "/imagens/uv.jpg",
+      detalhes: "Demonstração de materiais que fluorescem e técnicas de documentação forense.",
+    },
+    {
+      nome: "Simulação de cromatografia e análise de solventes",
+      nomeCurto: "Cromatografia e solventes",
+      bio: "A cromatografia é uma técnica para separar os componentes de uma mistura, como tinta, drogas ou corantes. Ao analisar como as substâncias se separam com diferentes solventes, é possível comparar e identificar materiais encontrados em cenas de crime.",
+      bioCurta: "Separa componentes de misturas como tintas e drogas. Identifica materiais através de solventes.",
+      img: "/imagens/Cromatografia.jpg",
+      detalhes: "Simulação prática de cromatografia em papel e análise qualitativa de solventes.",
     },
   ];
 
@@ -108,14 +124,16 @@ export default function App() {
       "Hoje, o Império 202 permanece grandioso. Suas portas continuam pesadas, seus corredores cheios de mistério. E ali dentro, cada jogador é protagonista de sua própria história."
     ],
     curiosidades: [
-      "🔍 Sistema de segurança violado - câmeras desativadas durante incidente",
-      "💎 Sala VIP com acesso restrito - apenas 5 pessoas tinham cartão",
-      "🧪 Vestígios químicos encontrados - composto tóxico próximo ao cofre", 
-      "⚡ Energia cortada manualmente - disjuntor do subsolo acessado",
-       "💰 Fichas falsas em circulação - esquema descoberto pela contabilidade",
-      "🕒 Cronologia comprometida - relógios do cassino adulterados",
-      "🔑 Chave mestra desaparecida - acessava todas as áreas restritas",
-      "📞 Chamada não identificada - feita do bar minutos antes do crime"
+      "💔 Juliane e Vitor eram próximos demais - negociavam fichas 'por fora'",
+      "⚔️ Vitor e Emanuel tinham rixa antiga - viviam trocando indiretas",
+      "🤝 Duda e Samuel trabalhavam juntos - mas clima variava entre parceria e competição",
+      "🚀 Juliane contratou Samuel rápido demais - Duda e Emanuel desconfiados",
+      "👑 Yasmin disputava influência com Juliane - odiava perder espaço para novatos",
+      "📋 Isabelly descobria falhas nas fichas - irritava Juliane e deixava Emanuel nervoso",
+      "👁️ Yasmin foi última a ver Samuel vivo - mas alega 'não viu nada demais'",
+      "🗣️ Duda era confidente de Vitor - sabia mais da vida dele do que deveria",
+      "⭐ Samuel virando queridinho do bar - motivo perfeito para ciúmes de Duda e Pisca",
+      "🔧 Emanuel visto perto do cofre - alega que era 'rotina de manutenção'"
     ],
   };
 
@@ -183,7 +201,8 @@ export default function App() {
                     <img
                       src={p.img}
                       alt={p.nome}
-                      className="h-64 w-full object-cover group-hover:scale-110 transition duration-500"
+                      onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/imagens/luminol.png'; }}
+                      className="h-64 w-full object-cover object-top group-hover:scale-110 transition duration-500"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-16"></div>
                   </div>
@@ -232,7 +251,8 @@ export default function App() {
                     <img
                       src={p.img}
                       alt={p.nome}
-                      className="h-64 w-full object-cover group-hover:scale-110 transition duration-500"
+                      onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/imagens/luminol.png'; }}
+                      className="h-64 w-full object-cover object-top group-hover:scale-110 transition duration-500"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-16"></div>
                   </div>
@@ -263,7 +283,7 @@ export default function App() {
             <h2 className="text-4xl font-bold text-yellow-200 text-center mb-8 font-serif drop-shadow-lg">
               Laboratório do Cassino
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {experimentos.map((exp) => (
                 <motion.div
                   key={exp.nome}
@@ -280,13 +300,14 @@ export default function App() {
                   <img
                     src={exp.img}
                     alt={exp.nome}
-                    className="h-48 w-full object-cover group-hover:scale-110 transition duration-500"
+                    onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/imagens/luminol.png'; }}
+                    className="h-64 w-full object-cover object-top group-hover:scale-110 transition duration-500"
                   />
                   <div className="p-6 relative z-10">
-                    <h3 className="text-xl font-bold mb-3 text-yellow-100 font-serif">
-                      {exp.nome}
+                    <h3 className="text-2xl font-bold mb-3 text-yellow-100 font-serif">
+                      {exp.nomeCurto}
                     </h3>
-                    <p className="text-yellow-200/80 text-sm">{exp.bio}</p>
+                    <p className="text-yellow-200/80 text-sm">{exp.bioCurta}</p>
                     <div className="mt-4 text-yellow-400 text-xs font-semibold flex items-center">
                       <span className="w-2 h-2 bg-yellow-500 rounded-full mr-2 animate-pulse"></span>
                       CLIQUE PARA ANALISAR
@@ -402,7 +423,7 @@ export default function App() {
                 <div className="absolute top-4 right-4 w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
                 
                 <div className="relative overflow-hidden rounded-2xl mb-6 border-2 border-yellow-500/30">
-                  <img src={selecionado.img} alt={selecionado.nomeCompleto || selecionado.nome} className="w-full h-72 object-cover" />
+                  <img src={selecionado.img} alt={selecionado.nomeCompleto || selecionado.nome} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/imagens/luminol.png'; }} className="w-full h-72 object-contain" />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent h-16"></div>
                 </div>
                 
@@ -425,25 +446,27 @@ export default function App() {
         </AnimatePresence>
       </main>
 
-      {/* Rodapé */}
-      <footer className="text-center text-yellow-200/80 text-sm pb-8 relative z-10">
-        <motion.div
-          className="inline-block bg-black/40 backdrop-blur-sm border border-yellow-500/20 rounded-2xl px-8 py-4 space-y-1"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-        >
-          <p className="text-yellow-300 font-semibold">
-            Cassino Império 202 — Investigação Forense
-          </p>
-          <p>
-            Feira de Ciências • <span className="text-yellow-400 font-bold">2º Ano 2025</span>
-          </p>
-          <p className="text-yellow-200/70 font-medium">
-            Escola Estadual São João Batista • Turma 202
-          </p>
-        </motion.div>
-      </footer>
+      {/* Rodapé (esconde quando houver um item selecionado/modal aberto) */}
+      {!selecionado && (
+        <footer className="text-center text-yellow-200/80 text-sm pb-8 relative z-10">
+          <motion.div
+            className="inline-block bg-black/40 backdrop-blur-sm border border-yellow-500/20 rounded-2xl px-8 py-4 space-y-1"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+          >
+            <p className="text-yellow-300 font-semibold">
+              Cassino Império 202 — Investigação Forense
+            </p>
+            <p>
+              Feira de Ciências • <span className="text-yellow-400 font-bold">2º Ano 2025</span>
+            </p>
+            <p className="text-yellow-200/70 font-medium">
+              Escola Estadual São João Batista • Turma 202
+            </p>
+          </motion.div>
+        </footer>
+      )}
     </div>
   );
 }
